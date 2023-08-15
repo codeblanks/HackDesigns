@@ -1,0 +1,204 @@
+/**************************/
+/* NAVIGATION */
+/**************************/
+    .header {
+        overflow: hidden;
+        padding: 1em 1.875em;
+        position: fixed;
+        width: 100%;
+        background-color: #F5F5F5;
+        z-index: 1;
+    }
+
+    .nav-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background: #0A5D00;
+        width: 50%;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(50%);
+        transition: all .3s;
+        padding: 1em 1.875em;
+        z-index: 1;
+    }
+
+    #menu-btn {
+        cursor: pointer;
+    }
+
+    #exit-btn {
+        float: right;
+        cursor: pointer;
+    }
+    
+    .top-nav {
+        padding-top: 5rem;
+    }
+    
+    .nav_link {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        margin-right: 0.5em;
+    }
+    
+    .nav_item {
+        text-align: right;
+    }
+    
+    .open-nav {
+        visibility: unset;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .nav_button {
+        font-weight: 700;
+    }
+
+/**************************/
+/* HERO */
+/**************************/
+    .hero {
+        padding-top: 10em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero-text-button-col {
+        padding: 0 1.875em;
+    }
+
+    .secondary-button {
+        border: 1px solid #1F1F1F;
+        color: #1F1F1F;
+    }
+
+    .secondary-button {
+        margin-bottom: 3.75rem;
+    }
+
+    .hero-img {
+        width: 100vw;
+    }
+
+/**************************/
+/* OBJECTIVE */
+/**************************/
+    .objective {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .objective-contents {
+        background: #DFDFDF;
+        border-radius: 4.375rem 0rem 0rem 0rem;
+        padding: 7.5em 1.875em;
+    }
+
+    .objective-logo {
+        margin-bottom: 1rem;
+    }
+
+/**************************/
+/* FEATURES */
+/**************************/
+    .features {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .features-contents {
+        background-color: #82BE81;
+        clip-path: polygon(0 100%, 0 0, 50% 6%, 100% 0, 100% 100%);
+        padding: 15em 1.875em 10em 1.875em;
+    }
+
+    .feature1-contents,
+    .feature2-contents {
+        padding-bottom: 9.375em;
+    }
+
+/**************************/
+/* READY */
+/**************************/
+    .ready {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ready-contents {
+        background-color: #DFDFDF;
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+        padding: 10em 1.875em 15em 1.875em;
+    }
+
+
+/**************************/
+/* FOOTER */
+/**************************/
+    .footer {
+        padding: 15.625em 0 0 0;
+    }
+
+    .footer-flex1 {
+        padding: 0 1.875em 0 1.875em;
+    }
+
+    .footer-logo {
+        margin-bottom: 2em;
+    }
+
+    .footer-flex2 {
+        padding: 0 1.875em 3em 1.875em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .line {
+        margin-bottom: 2em;
+    }
+
+    .footer-nav1 {
+        text-align: left;
+    }
+
+    .text-link,
+    .logo-link {
+        margin-bottom: 1rem;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .text-col {
+        padding: 0 0 3em 0;
+    }
+
+    .nav-col {
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
