@@ -350,6 +350,10 @@
   h2 {
     font-size: 3.75rem;
   }
+
+  p {
+    font-size: 1.5rem;
+  }
   
   /**************************/
   /* NAVIGATION */
@@ -425,4 +429,3 @@
     font-size: 3.75rem;
   }
 }
-
